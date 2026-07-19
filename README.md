@@ -8,7 +8,7 @@ Titanic dataset analysis using Python (EDA)
 #3. Outlier Detection
     Conclusion
 #4. Feature Engineering
-
+#5. Titanic Dataset Visualization
 In this step, new features were created to improve data representation:
 
 - **FamilySize** = SibSp + Parch + 1  
