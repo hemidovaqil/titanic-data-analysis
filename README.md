@@ -1,6 +1,6 @@
-# titanic-data-analysis
+#1. titanic-data-analysis
 Titanic dataset analysis using Python (EDA)
-## Data Cleaning
+#2. Data Cleaning
 - Age → median
 - Embarked → mode
 - Fare → median
@@ -9,6 +9,7 @@ Titanic dataset analysis using Python (EDA)
     Conclusion
 #4. Feature Engineering
 #5. Titanic Dataset Visualization
+#6. 6. Titanic Dataset Analysis (EDA)
 In this step, new features were created to improve data representation:
 
 - **FamilySize** = SibSp + Parch + 1  
