@@ -1,21 +1,26 @@
-#1. titanic-data-analysis
-Titanic dataset analysis using Python (EDA)
-#2. Data Cleaning
-- Age → median
-- Embarked → mode
-- Fare → median
-- Cabin → dropped
-#3. Outlier Detection
-    Conclusion
-#4. Feature Engineering
-#5. Titanic Dataset Visualization
-#6. 6. Titanic Dataset Analysis (EDA)
-In this step, new features were created to improve data representation:
+# Titanic Dataset Analysis (EDA)
 
-- **FamilySize** = SibSp + Parch + 1  
-  Represents the total number of family members aboard.
+## 1. Objective
+Explore the dataset and identify key factors affecting passenger survival.
 
-- **IsAlone**  
-  Binary feature indicating whether a passenger was traveling alone (1 = alone, 0 = not alone).
+## 2. Data Overview
+The dataset contains information about passengers such as age, gender, ticket class, fare, and survival status.
 
-These features help capture social structure and may improve model performance.
+## 3. Data Cleaning
+- Checked for missing values
+- Identified missing data in Age, Cabin, and Embarked
+- Prepared dataset for analysis
+
+## 4. Exploratory Data Analysis
+- Analyzed survival rate by gender
+- Compared survival across passenger classes
+- Examined age distribution
+
+## 5. Key Findings
+- Females had a significantly higher survival rate than males
+- First-class passengers were more likely to survive
+- Younger passengers had better survival chances
+- Missing values were present in Age and Cabin
+
+## 6. Conclusion
+Gender, class, and age are the most important factors influencing survival.
